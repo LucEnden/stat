@@ -1,0 +1,78 @@
+<mxfile host="65bd71144e">
+    <diagram id="LsA2sHt3nclSW1eART1x" name="Page-1">
+        <mxGraphModel dx="1117" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1125" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="23" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=2;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="310" width="480" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;" parent="1" source="10" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=2;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="90" width="480" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="corpus" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="120" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="document" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="120" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;" parent="1" source="4" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="vectorization&lt;br&gt;method" style="html=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="120" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="840" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="800" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="matrix" style="html=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="120" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="vector" style="html=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="120" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;" parent="1" source="8" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="principal component&lt;br&gt;analysis" style="html=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="340" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="reduced matrix" style="html=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="340" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;dashed=1;" parent="1" source="17" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Variable being tested,&lt;br&gt;treated as a black box" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=8;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="210" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Repeated for each document" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="60" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Repeated until C = 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="335" y="280" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="reduced matrix" style="html=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="340" width="120" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
